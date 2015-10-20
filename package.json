@@ -1,6 +1,6 @@
 {
   "name": "multi-command",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple react-blessed way to run multiple commands in one terminal window",
   "bin": {
     "multi-command": "lib/index.js"
