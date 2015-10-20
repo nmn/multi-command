@@ -2,7 +2,9 @@
   "name": "multi-command",
   "version": "1.0.0",
   "description": "A simple react-blessed way to run multiple commands in one terminal window",
-  "main": "index.js",
+  "bin": {
+    "multi-command": "lib/index.js"
+  },
   "scripts": {
     "test": "node lib/index.js",
     "watch": "babel src --out-dir lib --watch",
